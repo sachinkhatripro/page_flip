@@ -35,7 +35,7 @@ class PageFlipBuilderState extends State<PageFlipBuilder> {
 
   void _captureImage(Duration timeStamp, int index) async {
     if (_boundaryKey.currentContext == null) return;
-    await Future.delayed(const Duration(milliseconds: 100));
+    await Future.delayed(const Duration(milliseconds: 300));
     if (mounted) {
       final boundary = _boundaryKey.currentContext!.findRenderObject()!
           as RenderRepaintBoundary;

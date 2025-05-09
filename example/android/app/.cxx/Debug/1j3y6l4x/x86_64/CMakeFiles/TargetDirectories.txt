@@ -1,0 +1,2 @@
+D:/Users/sachi/flutter_projects/page_flip/example/android/app/.cxx/Debug/1j3y6l4x/x86_64/CMakeFiles/edit_cache.dir
+D:/Users/sachi/flutter_projects/page_flip/example/android/app/.cxx/Debug/1j3y6l4x/x86_64/CMakeFiles/rebuild_cache.dir

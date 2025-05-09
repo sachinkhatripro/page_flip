@@ -113,6 +113,7 @@ class PageFlipWidgetState extends State<PageFlipWidget>
   void _turnPage(DragUpdateDetails details, BoxConstraints dimens) {
     // During dragging, update currentPage to trigger the builder's animation effect
     currentPage.value = pageNumber;
+
     currentWidget.value = Container();
     final ratio = details.delta.dx / dimens.maxWidth;
     if (_isForward == null) {
